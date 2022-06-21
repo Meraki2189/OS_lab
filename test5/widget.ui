@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1325</width>
+    <height>1223</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="sstfBtn">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>1000</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SSTF算法</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scanBtn">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>1000</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SCAN算法</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>961</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>被访问的下一个磁道号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>移动距离</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>880</y>
+     <width>231</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>移臂总量:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text_label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>890</y>
+     <width>231</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>60</y>
+     <width>521</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>10</y>
+     <width>531</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入磁盘请求阵列，用空格间隔</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scanBtn_2">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>1000</y>
+     <width>211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="start">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>161</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>0</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>起点</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>scanBtn_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1485</x>
+     <y>1055</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>599</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>869</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>90</y>
+     <width>771</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>A.txt</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>B.txt</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>C.txt</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>D.txt</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>E.txt</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>大小</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>第一块号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>块数</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>7k</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>5k</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>2k</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>9k</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>3.5k</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>60</y>
+     <width>591</width>
+     <height>741</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>第一空闲块号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>空闲块数</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>710</y>
+     <width>181</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>710</y>
+     <width>281</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>创建文件并删除奇数文件</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>710</y>
+     <width>181</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>增加五个文件</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>580</x>
+     <y>645</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>599</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
